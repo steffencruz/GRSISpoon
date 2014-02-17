@@ -5,7 +5,7 @@ void testGauntlet()	{
 
 	//open our files
 	TFile *standard  = new TFile("fragment27422_000_benchmark.root");
-	printf("\t"  "standard  file opened: %s" "\n", standard->GetName());
+	printf("\t"  "standard  file opened ***: %s" "\n", standard->GetName());
 	TFile *contender = new TFile("fragment27422_000.root");
 	printf("\t"  "contender file opened: %s" "\n", contender->GetName());
 
